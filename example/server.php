@@ -5,6 +5,11 @@
  * @author NetPuter <netputer@gmail.com>
  */
 
+$log_dest = './log';
+error_log("log: \r\n", 3, $log_dest);
+error_log("In progress.."."\r\n", 3, $log_dest);
+error_log("\r\n", 3, $log_dest);
+
   require('../src/Wechat.php');
 
   /**
