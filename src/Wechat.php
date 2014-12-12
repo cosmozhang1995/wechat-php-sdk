@@ -71,7 +71,7 @@
      */
     private function validateSignature($token) {
       $log_dest = './log';
-      error_log('log: ', 3, $log_dest);
+      error_log('log: \n', 3, $log_dest);
       error_log(isset($_GET['signature']), 3, $log_dest);
       error_log(isset($_GET['timestamp']), 3, $log_dest);
       error_log(isset($_GET['nonce']), 3, $log_dest);
